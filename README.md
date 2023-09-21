@@ -1,6 +1,6 @@
 # Repositório do projeto `Algorithms` - Trybe
 
-  Neste projeto resolvi problemas e otimizei algoritmos desenvolvendo a capacidade de implementar soluções para os mais diversos problemas do dia a dia!
+  Neste projeto resolvi problemas e otimizei algoritmos, usando o python como linguagem, desenvolvendo a capacidade de implementar soluções para os mais diversos problemas do dia a dia!
   
   🚵 Habilidades exercitadas:
   

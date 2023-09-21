@@ -6,8 +6,8 @@ def test_encrypt_message():
     assert encrypt_message("palmeiras", 3) == "lap_sariem"
     assert encrypt_message("palmeiras", 4) == "sarie_mlap"
     assert encrypt_message("palmeiras", 10) == "sariemlap"
-    with pytest.raises(TypeError):
+    with pytest.raises(TypeError, match="tipo inválido para key"):
         encrypt_message('palmeiras', 'p')
 
-    with pytest.raises(TypeError):
+    with pytest.raises(TypeError, match="tipo inválido para message"):
         encrypt_message(1, 1)
